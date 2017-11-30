@@ -1,8 +1,10 @@
 # HereIsWally
-Deep learning project that solves Where's Waldo puzzles by dinding Waldo in an image
+Deep learning project that solves Where's Wally puzzles by finding the exact position of Wally in an image
 
 ![alt text](https://raw.githubusercontent.com/tadejmagajna/HereIsWally/master/docs/docs.png)
 
+HereIsWally is a Tensorflow project that includes a model for solving Where's Wally puzzles.
+It uses Faster RCNN Inception v2 model initially trained on COCO dataset and retrained for finding Wally using transfer learning with Tensorflow Object Detection API.
 
 ## Requirements
 1. Install latest version of Tensorflow
@@ -11,11 +13,11 @@ Deep learning project that solves Where's Waldo puzzles by dinding Waldo in an i
 
 ## Usage
 ```
-python find_waldo_pretty.py
+python find_wally_pretty.py
 ```
 or 
 ```
-python find_waldo.py
+python find_wally.py
 ```
 
 One of the images from the eval folder should pop up with wally outlined 
