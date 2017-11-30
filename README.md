@@ -9,7 +9,6 @@ It uses Faster RCNN Inception v2 model initially trained on COCO dataset and ret
 ## Requirements
 1. Install latest version of Tensorflow
 2. Follow [Tensorflow Object Detection Installation instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) (optional)
-### Windows
 
 ## Usage
 ```
@@ -26,7 +25,7 @@ One of the images from the eval folder should pop up with wally outlined
 - [Python 3.5+](https://www.continuum.io/download)
 - [TensorFlow 1.3](https://www.tensorflow.org/)
 
-## Technologies Used
+## Sources
 - [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [Training Images](https://github.com/vc1492a/Hey-Waldo)
 
