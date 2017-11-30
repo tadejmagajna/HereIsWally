@@ -13,9 +13,8 @@ def draw_box(box, image_np):
     #expand the box by 50%
     box += np.array([-(box[2] - box[0])/2, -(box[3] - box[1])/2, (box[2] - box[0])/2, (box[3] - box[1])/2]) 
 
-    fig = plt.figure(frameon=False, figsize=(image_np.shape[1]/100, image_np.shape[0]/100), dpi=100)
+    fig = plt.figure()
     ax = plt.Axes(fig, [0., 0., 1., 1.])
-    ax.set_axis_off()
     fig.add_axes(ax)
 
     #draw blurred boxes around box
