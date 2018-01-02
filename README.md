@@ -32,4 +32,4 @@ One of the images from the eval folder should pop up with wally outlined
 ## Copyright
 
 See [LICENSE](LICENSE) for details.
-Copyright (c) 2017 [Tadej Magajna](http://www.tadejmagajna.com/).
+Copyright (c) 2018 [Tadej Magajna](http://www.tadejmagajna.com/).
