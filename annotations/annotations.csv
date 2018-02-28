@@ -38,7 +38,7 @@ filename,width,height,class,xmin,ymin,xmax,ymax
 35.jpg,600,374,waldo,300,44,515,254
 36.jpg,591,629,waldo,171,20,196,48
 36.jpg,591,629,waldo,270,5,300,42
-36.jpg,591,629,waldo,358,20,388,38
+36.jpg,591,629,waldo,358,5,388,38
 36.jpg,591,629,waldo,449,8,479,40
 36.jpg,591,629,waldo,527,15,554,48
-37.jpg,464,547,waldo,0,1,462,547
+36.jpg,464,547,waldo,94,270,106,279
