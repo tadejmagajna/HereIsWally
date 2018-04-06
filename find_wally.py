@@ -7,10 +7,10 @@ from PIL import Image
 import matplotlib.patches as patches
 from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
+import argparse
 
 
 model_path = './trained_model/frozen_inference_graph.pb'
-image_path='eval_images/1.jpg'
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
@@ -31,7 +31,10 @@ category_index = label_map_util.create_category_index(categories)
 
 with detection_graph.as_default():
   with tf.Session(graph=detection_graph) as sess:
-    image_np = load_image_into_numpy_array(Image.open(image_path))
+    parser = argparse.ArgumentParser()
+    parser.add_argument('image_path')
+    args = parser.parse_args()
+    image_np = load_image_into_numpy_array(Image.open(args.image_path))
     image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
     boxes = detection_graph.get_tensor_by_name('detection_boxes:0')
     scores = detection_graph.get_tensor_by_name('detection_scores:0')
