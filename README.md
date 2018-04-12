@@ -19,7 +19,7 @@ or
 python find_wally.py images/1.jpg
 ```
 
-One of the images from the eval folder should pop up with wally outlined 
+The image should pop up with wally outlined 
 
 ## Requirements
 - [Python 3.5+](https://www.continuum.io/download)
