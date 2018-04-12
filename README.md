@@ -12,11 +12,11 @@ It uses Faster RCNN Inception v2 model initially trained on COCO dataset and ret
 
 ## Usage
 ```
-python find_wally_pretty.py
+python find_wally_pretty.py images/1.jpg
 ```
 or 
 ```
-python find_wally.py
+python find_wally.py images/1.jpg
 ```
 
 One of the images from the eval folder should pop up with wally outlined 
