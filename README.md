@@ -6,7 +6,7 @@ Deep learning project that solves Where's Wally puzzles by finding the exact pos
 HereIsWally is a Tensorflow project that includes a model for solving Where's Wally puzzles.
 It uses Faster RCNN Inception v2 model initially trained on COCO dataset and retrained for finding Wally using transfer learning with Tensorflow Object Detection API.
 
-## Getting Ready
+## Getting ready
 1. Install latest version of Tensorflow
 2. Follow [Tensorflow Object Detection Installation instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) (optional)
 
@@ -28,6 +28,10 @@ The image should pop up with wally outlined
 ## Sources
 - [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [Training Images](https://github.com/vc1492a/Hey-Waldo)
+
+## Related projects
+
+- [Gathering and Analyzing Hardware Performance Data During Deep Network Training](https://github.com/amerus/BenchmarkingTensorflow/)
 
 ## Copyright
 
