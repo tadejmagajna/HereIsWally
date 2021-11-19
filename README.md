@@ -14,7 +14,7 @@ It uses Faster RCNN Inception v2 model initially trained on COCO dataset and ret
 
 ## Usage
 ```
-python find_wally_pretty.py images/1.jpg
+python find_wally_pretty.py images/1.jpg. #this method is deprecated as tensorflow 2.x released please use the other method to execute the script
 ```
 or 
 ```
