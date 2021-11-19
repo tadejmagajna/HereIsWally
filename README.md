@@ -6,11 +6,41 @@ Deep learning project that solves Where's Wally puzzles by finding the exact pos
 HereIsWally is a Tensorflow project that includes a model for solving Where's Wally puzzles.
 It uses Faster RCNN Inception v2 model initially trained on COCO dataset and retrained for finding Wally using transfer learning with Tensorflow Object Detection API.
 
-## Getting ready
-1. Install Python 3.7
-2. [Install Pipenv](https://github.com/pypa/pipenv#installation)
-3. Run `pipenv install` to install the dependencies
-4. Run `pipenv shell` to activate the Pipenv environment
+## What is needed to use this script
+Python 3.7+ (python 3.8 is advised)
+
+###Libraries
+Mathplotlib 
+```
+pip3 install matplotlib
+```
+
+TensorFlow for Chip Intel/AMD #TODO to check if is ok
+```
+pip3 install tensorflow
+```
+if with this doesn't work use this instead:
+```
+pip3 install tf-nightly
+```
+
+
+
+TensorFlow for Chip Apple Silicon M1
+I advise to use this package to install solely to make the environment as smooth as possible to use
+```
+https://drive.google.com/drive/folders/1oSipZLnoeQB0Awz8U68KYeCPsULy_dQ7
+
+```
+```
+pip3 install ~/Downloads/tensorflow-2.4.1-py3-none-any.whl <or the path where the package downloaded is located>
+```
+
+
+Pipenv (i think #TODO check if is needed)
+```
+pip3 install pipenv
+```
 
 ## Usage
 ```
@@ -34,7 +64,4 @@ For instructions about how to retrain the model follow the instructions [in this
 ## Related projects
 
 - [Gathering and Analyzing Hardware Performance Data During Deep Network Training](https://github.com/amerus/BenchmarkingTensorflow/)
-
-## Copyright
-
-See [LICENSE](LICENSE) for details.
+- [HereIsWally by xtadejmagajna](https://github.com/tadejmagajna/HereIsWally/)
