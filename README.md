@@ -9,7 +9,7 @@ It uses Faster RCNN Inception v2 model initially trained on COCO dataset and ret
 ## What is needed to use this script
 Python 3.7+ (python 3.8 is advised)
 
-###Libraries
+### Libraries
 Mathplotlib 
 ```
 pip3 install matplotlib
@@ -19,7 +19,7 @@ TensorFlow for Chip Intel/AMD #TODO to check if is ok
 ```
 pip3 install tensorflow
 ```
-if with this doesn't work use this instead:
+if it doesn't work use this instead:
 ```
 pip3 install tf-nightly
 ```
@@ -56,6 +56,8 @@ A window displaying a Wally puzzle outlining Wally should show up.
 ## Retraining the model
 
 For instructions about how to retrain the model follow the instructions [in this blog post](https://towardsdatascience.com/how-to-find-wally-neural-network-eddbb20b0b90).
+
+Some files are missing so i think is not instantly possible.
 
 ## Sources
 - [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
