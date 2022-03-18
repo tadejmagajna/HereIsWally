@@ -42,6 +42,13 @@ Pipenv (i think #TODO check if is needed)
 pip3 install pipenv
 ```
 
+
+The requirement.txt file is made on a UNIX system with M1 (ARM processor) so may have some incompatibility on windows system/not-ARM cpu
+```
+pip3 install -r requirements.txt
+```
+
+
 ## Usage
 ```
 python find_wally_pretty.py images/1.jpg. #this method is deprecated as tensorflow 2.x released please use the other method to execute the script
