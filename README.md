@@ -51,10 +51,6 @@ pip3 install -r requirements.txt
 
 ## Usage
 ```
-python find_wally_pretty.py images/1.jpg. #this method is deprecated as tensorflow 2.x released please use the other method to execute the script
-```
-or 
-```
 python find_wally.py images/1.jpg
 ```
 
