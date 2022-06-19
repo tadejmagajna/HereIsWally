@@ -13,6 +13,9 @@ It uses Faster RCNN Inception v2 model initially trained on COCO dataset and ret
 5. Run `pipenv install` to install the dependencies
 6. Run `pipenv shell` to activate the Pipenv environment
 
+## Notes
+If you have issues installing tf_nightly edit the `requirements.txt` file to the last version
+
 ## Usage
 ```
 python find_wally_pretty.py images/1.jpg
