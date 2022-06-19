@@ -7,4 +7,4 @@ Pillow==9.0.1
 protobuf==3.19.4
 six==1.15.0
 tensorflow==2.8.0
-tf_nightly==2.10.0.dev20220618
+tf_nightly==2.8.0.dev20211119
