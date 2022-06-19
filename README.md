@@ -9,8 +9,9 @@ It uses Faster RCNN Inception v2 model initially trained on COCO dataset and ret
 ## Getting ready
 1. Install Python 3.7
 2. [Install Pipenv](https://github.com/pypa/pipenv#installation)
-3. Run `pipenv install` to install the dependencies
-4. Run `pipenv shell` to activate the Pipenv environment
+3. Write ``` pip install -r requirements.txt ```
+5. Run `pipenv install` to install the dependencies
+6. Run `pipenv shell` to activate the Pipenv environment
 
 ## Usage
 ```
