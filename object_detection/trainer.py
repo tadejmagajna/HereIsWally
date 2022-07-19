@@ -24,7 +24,7 @@ import functools
 import tensorflow as tf
 
 from object_detection.builders import optimizer_builder
-from object_detection.builders import preprocessor_builder
+from object_detection.legacy.builders import preprocessor_builder
 from object_detection.core import batcher
 from object_detection.core import preprocessor
 from object_detection.core import standard_fields as fields

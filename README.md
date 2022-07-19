@@ -6,17 +6,39 @@ Deep learning project that solves Where's Wally puzzles by finding the exact pos
 HereIsWally is a Tensorflow project that includes a model for solving Where's Wally puzzles.
 It uses Faster RCNN Inception v2 model initially trained on COCO dataset and retrained for finding Wally using transfer learning with Tensorflow Object Detection API.
 
-## Getting ready
-1. Install Python 3.7
-2. [Install Pipenv](https://github.com/pypa/pipenv#installation)
-3. Run `pipenv install` to install the dependencies
-4. Run `pipenv shell` to activate the Pipenv environment
+## What is needed to use this script
+Python 3.8+ (python 3.8 is advised)
+
+### Libraries
+
+Use this command to install the libraries: (tensorflow is not present cause in Apple ARM chips is not yet available
+```
+pip3 install -r requirements.txt
+```
+
+
+TensorFlow for Chip Intel/AMD #TODO to check if is ok
+```
+pip3 install tensorflow
+```
+if it doesn't work use this instead:
+```
+pip3 install tf-nightly
+```
+
+
+TensorFlow for Chip Apple Silicon M1
+I advise to use this package to install solely to make the environment as smooth as possible to use
+```
+https://drive.google.com/drive/folders/1oSipZLnoeQB0Awz8U68KYeCPsULy_dQ7
+
+```
+```
+pip3 install ~/Downloads/tensorflow-2.4.1-py3-none-any.whl <or the path where the package downloaded is located>
+```
+
 
 ## Usage
-```
-python find_wally_pretty.py images/1.jpg
-```
-or 
 ```
 python find_wally.py images/1.jpg
 ```
@@ -27,6 +49,8 @@ A window displaying a Wally puzzle outlining Wally should show up.
 
 For instructions about how to retrain the model follow the instructions [in this blog post](https://towardsdatascience.com/how-to-find-wally-neural-network-eddbb20b0b90).
 
+Some files are missing in this repo so is not instantly possible to retrain the model.
+
 ## Sources
 - [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [Training Images](https://github.com/vc1492a/Hey-Waldo)
@@ -34,7 +58,4 @@ For instructions about how to retrain the model follow the instructions [in this
 ## Related projects
 
 - [Gathering and Analyzing Hardware Performance Data During Deep Network Training](https://github.com/amerus/BenchmarkingTensorflow/)
-
-## Copyright
-
-See [LICENSE](LICENSE) for details.
+- [HereIsWally by xtadejmagajna](https://github.com/tadejmagajna/HereIsWally/)
